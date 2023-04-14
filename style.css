@@ -2,6 +2,7 @@ html {
     height: 100%;
     width: 100%;
   }
+
 /* MICHAEL */
  .containerone {
     background-image: url(images/bg-header-desktop.png) ;
@@ -64,3 +65,37 @@ html {
     }
  /* MICHAEL */   
     
+
+/*kavin*/
+  .container3{
+    background-color:white ;
+  }
+  .row3{
+    border: 50px;
+  }
+  .row4{
+    border: 50px;
+  }
+  .column{
+    background-color: white;
+  }
+.p2{
+  text-align: center;
+  color: darkgrey;
+}
+.hh{
+  text-align: center;
+}
+.img3{
+  text-align: center;
+  margin-top: 60px;
+  max-width: 100%;
+  height: auto;
+}
+.group{
+  display: flex;
+  text-align: center;
+}
+
+/*kavin*/
+
