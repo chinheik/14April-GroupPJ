@@ -2,6 +2,70 @@ html {
     height: 100%;
     width: 100%;
   }
+
+/* MICHAEL */
+ .containerone {
+    background-image: url(images/bg-header-desktop.png) ;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rowone {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 475px;
+    align-items: center;
+    }
+
+    .rowtwo {
+        display: flex;
+        justify-content: center;
+        width: 475px;
+        align-items: center;
+        
+        }
+
+    .button {
+        display: block;
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        }
+    .ios{
+        background-color: rgba(9, 211, 110, 0.692);
+        border-radius: 30px;
+        height: 40px;
+        width: 160px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        line-height:40px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+    .mac {
+        background-color: rgb(91, 112, 202);
+        border-radius: 30px;
+        height: 40px;
+        width: 160px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        line-height:40px;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+    .ios:hover {
+        background-color: rgb(23, 204, 114);
+    }
+    .mac:hover {
+        background-color: rgb(56, 82, 196);
+    }
+ /* MICHAEL */   
+    
+
 /*kavin*/
   .container3{
     background-color:white ;
@@ -34,3 +98,4 @@ html {
 }
 
 /*kavin*/
+
