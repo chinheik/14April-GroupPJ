@@ -3,6 +3,8 @@ html {
     width: 100%;
   }
 
+
+
 /* MICHAEL */
  .containerone {
     background-image: url(images/bg-header-desktop.png) ;
@@ -98,4 +100,69 @@ html {
 }
 
 /*kavin*/
+
+/*Zoe*/
+.containertwo {
+  border: 5px solid #1D5D31;
+  padding: 10px;
+}
+
+.row {
+  border: 2px solid burlywood;
+}
+
+.column {
+  border: 1px blueviolet dotted;
+  height: auto;
+}
+
+.containercom {
+  border: 1px #1D5D31 dotted;
+  width: 100%;
+}
+
+.textcontainer{
+  border: purple solid;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.containerfour {
+  border: 5px solid #1D5D31;
+  padding: 10px;
+}
+
+.containerfour1{
+  border: 3px solid blue;
+  padding: 10px;
+  width: 800px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.fivelogo {
+  width: 100px;
+}
+
+.fivelogospace{
+  display: flex;
+  justify-content: space-between;
+}
+
+#pillshape{
+  width: 200px;
+  height: 38px;
+  margin-top: 10px;
+}
 
