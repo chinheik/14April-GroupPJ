@@ -1,100 +1,129 @@
 html {
-    height: 100%;
-    width: 100%;
-  }
-
-
+  height: 100%;
+  width: 100%;
+}
 
 /* MICHAEL */
- .containerone {
-    background-image: url(images/bg-header-desktop.png) ;
-    background-size: cover;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .rowone {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 475px;
-    align-items: center;
-    }
+.containerone {
+  background-image: url(images/bg-header-desktop.png);
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-    .rowtwo {
-        display: flex;
-        justify-content: center;
-        width: 475px;
-        align-items: center;
-        
-        }
+.rowone {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 475px;
+  align-items: center;
+}
 
-    .button {
-        display: block;
-        color: white;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        }
-    .ios{
-        background-color: rgba(9, 211, 110, 0.692);
-        border-radius: 30px;
-        height: 40px;
-        width: 160px;
-        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-        line-height:40px;
-        cursor: pointer;
-        margin-right: 10px;
-    }
-    .mac {
-        background-color: rgb(91, 112, 202);
-        border-radius: 30px;
-        height: 40px;
-        width: 160px;
-        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-        line-height:40px;
-        cursor: pointer;
-        margin-left: 10px;
-    }
-    .ios:hover {
-        background-color: rgb(23, 204, 114);
-    }
-    .mac:hover {
-        background-color: rgb(56, 82, 196);
-    }
- /* MICHAEL */   
-    
+.rowtwo {
+  display: flex;
+  justify-content: center;
+  width: 475px;
+  align-items: center;
+}
+
+.button {
+  display: block;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.ios {
+  background-color: rgba(9, 211, 110, 0.692);
+  border-radius: 30px;
+  height: 40px;
+  width: 160px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  line-height: 40px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.mac {
+  background-color: rgb(91, 112, 202);
+  border-radius: 30px;
+  height: 40px;
+  width: 160px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  line-height: 40px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.ios:hover {
+  background-color: rgb(23, 204, 114);
+}
+.mac:hover {
+  background-color: rgb(56, 82, 196);
+}
+
+#logo {
+  text-align: center;
+}
+
+.c2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.c1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.containerfive {
+  background-color: #f2f2f2;
+}
+
+.rowfive {
+  height: 200px;
+}
+/* MICHAEL */
 
 /*kavin*/
-  .container3{
-    background-color:white ;
-  }
-  .row3{
-    border: 50px;
-  }
-  .row4{
-    border: 50px;
-  }
-  .column{
-    background-color: white;
-  }
-.p2{
+.container3 {
+  background-color: white;
+}
+.row3 {
+  border: 50px;
+}
+.row4 {
+  border: 50px;
+}
+.column {
+  background-color: white;
+}
+.p2 {
   text-align: center;
   color: darkgrey;
 }
-.hh{
+.hh {
   text-align: center;
 }
-.img3{
+.img3 {
   text-align: center;
   margin-top: 60px;
   max-width: 100%;
   height: auto;
 }
-.group{
+.group {
   display: flex;
   text-align: center;
 }
@@ -103,7 +132,7 @@ html {
 
 /*Zoe*/
 .containertwo {
-  border: 5px solid #1D5D31;
+  border: 5px solid #1d5d31;
   padding: 10px;
 }
 
@@ -117,11 +146,11 @@ html {
 }
 
 .containercom {
-  border: 1px #1D5D31 dotted;
+  border: 1px #1d5d31 dotted;
   width: 100%;
 }
 
-.textcontainer{
+.textcontainer {
   border: purple solid;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -130,7 +159,6 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-
 }
 
 .textcenter {
@@ -138,31 +166,30 @@ html {
 }
 
 .containerfour {
-  border: 5px solid #1D5D31;
+  border: 5px solid #1d5d31;
   padding: 10px;
 }
 
-.containerfour1{
+.containerfour1 {
   border: 3px solid blue;
   padding: 10px;
-  width: 800px;
   height: 300px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .fivelogo {
   width: 100px;
 }
 
-.fivelogospace{
+.fivelogospace {
   display: flex;
   justify-content: space-between;
 }
 
-#pillshape{
+#pillshape {
   width: 200px;
   height: 38px;
   margin-top: 10px;
 }
-
