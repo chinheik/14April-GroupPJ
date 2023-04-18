@@ -18,7 +18,15 @@ html {
   display: flex;
   flex-direction: column;
   text-align: center;
-  color: darkgrey;
+  width: 475px;
+  align-items: center;
+}
+
+.rowtwo {
+  display: flex;
+  justify-content: center;
+  width: 475px;
+  align-items: center;
 }
 
 .button {
