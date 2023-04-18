@@ -168,11 +168,15 @@ html {
 .containerfour {
   border: 5px solid #1d5d31;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .containerfour1 {
+  width: 600px;
   border: 3px solid blue;
-  padding: 10px;
   height: 300px;
   display: flex;
   align-items: center;
@@ -183,13 +187,8 @@ html {
   width: 100px;
 }
 
-.fivelogospace {
+.fivelogocolumn {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-}
-
-#pillshape {
-  width: 200px;
-  height: 38px;
-  margin-top: 10px;
 }
